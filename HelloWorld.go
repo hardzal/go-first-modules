@@ -1,5 +1,6 @@
 package hello_world
 
-func HelloWorld() string {
-	return ("Hello, World!\nGood Morning!")
+func HelloWorld(name string) string {
+	result := "Hello, World!\nGood Morning! " + name
+	return (result)
 }
